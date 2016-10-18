@@ -1,4 +1,4 @@
-package com.deloitte.rest.bo;
+package com.whitebay.rest.bo;
 
 public class Customer {
 	private int id;

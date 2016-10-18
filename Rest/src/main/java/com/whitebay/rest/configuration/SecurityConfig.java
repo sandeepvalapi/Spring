@@ -1,4 +1,4 @@
-package com.deloitte.rest.configuration;
+package com.whitebay.rest.configuration;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;

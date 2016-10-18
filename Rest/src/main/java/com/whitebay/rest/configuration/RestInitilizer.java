@@ -1,4 +1,4 @@
-package com.deloitte.rest.configuration;
+package com.whitebay.rest.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

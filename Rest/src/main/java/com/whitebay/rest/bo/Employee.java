@@ -1,4 +1,4 @@
-package com.deloitte.rest.bo;
+package com.whitebay.rest.bo;
 
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlAccessType;

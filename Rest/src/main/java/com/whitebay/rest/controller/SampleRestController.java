@@ -1,4 +1,4 @@
-package com.deloitte.rest.controller;
+package com.whitebay.rest.controller;
 
 import java.util.List;
 
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.deloitte.rest.bo.Customer;
-import com.deloitte.rest.bo.Employee;
-import com.deloitte.rest.bo.Message;
-import com.deloitte.rest.dao.CustomerDao;
+import com.whitebay.rest.bo.Customer;
+import com.whitebay.rest.bo.Employee;
+import com.whitebay.rest.bo.Message;
+import com.whitebay.rest.dao.CustomerDao;
 
 @RestController()//Controller + Response Body
 public class SampleRestController {

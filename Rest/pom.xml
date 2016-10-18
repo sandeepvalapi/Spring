@@ -5,10 +5,9 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.deloitte.rest</groupId>
-	<artifactId>springrest</artifactId>
+	<artifactId>springtutorial</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>Spring Rest Example</name>
 
 	<properties>
 		<springframework.version>4.3.0.RELEASE</springframework.version>
@@ -83,6 +82,7 @@
 			</plugins>
 		</pluginManagement>
 
-		<finalName>SpringRest</finalName>
+		<finalName>Spring</finalName>
 	</build>
+	<name>Tutorial</name>
 </project>

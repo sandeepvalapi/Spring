@@ -1,11 +1,11 @@
-package com.deloitte.rest.dao;
+package com.whitebay.rest.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.deloitte.rest.bo.Customer;
+import com.whitebay.rest.bo.Customer;
 
 @Component
 public class CustomerDao {

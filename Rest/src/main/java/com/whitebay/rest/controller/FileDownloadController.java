@@ -1,4 +1,4 @@
-package com.deloitte.rest.controller;
+package com.whitebay.rest.controller;
 
 import java.io.BufferedInputStream;
 import java.io.File;
