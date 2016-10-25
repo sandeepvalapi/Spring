@@ -1,4 +1,4 @@
-package com.whitebay.rest.controller;
+package com.coach.rest.controller;
 
 import java.io.BufferedInputStream;
 import java.io.File;

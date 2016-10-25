@@ -1,4 +1,4 @@
-package com.whitebay.rest.configuration;
+package com.coach.rest.configuration;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

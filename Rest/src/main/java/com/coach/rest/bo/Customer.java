@@ -1,4 +1,4 @@
-package com.whitebay.rest.bo;
+package com.coach.rest.bo;
 
 public class Customer {
 	private int id;

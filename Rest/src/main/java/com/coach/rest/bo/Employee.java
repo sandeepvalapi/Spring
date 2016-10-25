@@ -1,4 +1,4 @@
-package com.whitebay.rest.bo;
+package com.coach.rest.bo;
 
 import java.io.Serializable;
 import javax.xml.bind.annotation.XmlAccessType;
