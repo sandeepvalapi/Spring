@@ -1,11 +1,11 @@
-package com.whitebay.rest.dao;
+package com.coach.rest.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.whitebay.rest.bo.Customer;
+import com.coach.rest.bo.Customer;
 
 @Component
 public class CustomerDao {

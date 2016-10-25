@@ -4,8 +4,8 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.deloitte.rest</groupId>
-	<artifactId>springtutorial</artifactId>
+	<groupId>com.coach.rest</groupId>
+	<artifactId>coach</artifactId>
 	<packaging>war</packaging>
 	<version>1.0.0</version>
 
@@ -75,14 +75,14 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>SpringRest</warName>
+						<warName>Coach</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
 
-		<finalName>Spring</finalName>
+		<finalName>Coach</finalName>
 	</build>
-	<name>Tutorial</name>
+	<name>Coach</name>
 </project>

@@ -1,4 +1,4 @@
-package com.whitebay.rest.controller;
+package com.coach.rest.controller;
 
 import java.util.List;
 
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.whitebay.rest.bo.Customer;
-import com.whitebay.rest.bo.Employee;
-import com.whitebay.rest.bo.Message;
-import com.whitebay.rest.dao.CustomerDao;
+import com.coach.rest.bo.Customer;
+import com.coach.rest.bo.Employee;
+import com.coach.rest.bo.Message;
+import com.coach.rest.dao.CustomerDao;
 
 @RestController()//Controller + Response Body
 public class SampleRestController {
