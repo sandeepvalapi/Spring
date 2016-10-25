@@ -22,16 +22,12 @@ import com.coach.rest.bo.Employee;
 import com.coach.rest.bo.Message;
 import com.coach.rest.dao.CustomerDao;
 
-@RestController()//Controller + Response Body
+@RestController()
 public class SampleRestController {
 
 	@Autowired
 	CustomerDao customerDao;
 
-	/*
-	 * Default Rest method
-	 * http://localhost:8080/
-	 */
 	@RequestMapping("/")
 	public String welcome() {
 		return "Welcome to Rest Example.";
@@ -40,22 +36,11 @@ public class SampleRestController {
 	/*
 	 * Simple Get Request
 	 */
-	@PreAuthorize("hasRole('ROLE_USER')")
-	@RequestMapping(value = { "/simplegetrequest" }, method = RequestMethod.GET)
+	// @PreAuthorize("hasRole('ROLE_USER')")
+	@RequestMapping(value = { "/samplegetrequest" }, method = RequestMethod.GET)
 	public String simpleGetRequest() {
 		return "Hello, Simple Get Request can be accessed..";
 	}
-
-	/**
-	 * 
-	 * @param pathVariable
-	 * @return
-	 */
-//	@RequestMapping(value = "/{productId}", method = RequestMethod.GET)
-//	public String getPathVariableRequest(@PathVariable String productId) {
-//		//Delegate.getProductInformation(productId);
-//		return "Hello, from getPathVariableRequest : " + productId;
-//	}
 
 	/*
 	 * Default : Get Method
@@ -104,7 +89,7 @@ public class SampleRestController {
 	public String getHomePage(ModelMap model) {
 		return "welcome";
 	}
-	
+
 	/*
 	 * Simple @ResponseBody Example
 	 */
@@ -154,7 +139,7 @@ public class SampleRestController {
 		return new ResponseEntity<String>("Handled application/json request. Request body was: " + name,
 				new HttpHeaders(), HttpStatus.OK);
 	}
-	
+
 	@RequestMapping(value = "/customer/put/{id}", method = RequestMethod.PUT)
 	public ResponseEntity putExample(@PathVariable("id") int id) {
 		return new ResponseEntity("Do Some Put Operation " + id, HttpStatus.OK);
